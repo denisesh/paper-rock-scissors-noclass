@@ -24,7 +24,7 @@ describe Game do
     expect(output).to include("What sign would you like to throw?")
   end
 
-  it "reports what the user threw" do
+  xit "reports what the user threw" do
     simulate_user_input('rock')
     app.run
 
@@ -33,7 +33,7 @@ describe Game do
 
   # get the sign they throw
   # check if its one of rock paper or scissors
-  it "checks if input is rock paper or scissors" do
+  xit "checks if input is rock paper or scissors" do
     simulate_user_input('monkey')
     app.run
 
